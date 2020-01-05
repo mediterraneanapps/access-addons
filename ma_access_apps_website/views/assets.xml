@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="assets_editor" inherit_id="web_editor.assets_editor">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/access_apps_website/static/src/js/new_content.js"></script>
+            <script type="text/javascript" src="/access_apps_website/static/src/js/tour.js"></script>
+        </xpath>
+    </template>
+</odoo>
