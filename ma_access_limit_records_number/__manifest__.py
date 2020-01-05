@@ -8,7 +8,7 @@
     "author": "Mediterranean Apps",
     "support": "mediterranean.apps@gmail.com",
     "license": "LGPL-3",
-    "price": 10.00,
+    "price": 3.33,
     "currency": "EUR",
 
     "depends": [
