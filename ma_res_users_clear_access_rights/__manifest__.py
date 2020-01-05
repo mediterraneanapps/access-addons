@@ -1,0 +1,19 @@
+{
+    'name': 'Clear User Access rights',
+    "summary": """Useful tool to reset user rights""",
+    'version': '12.0.1.1.0',
+    'author': 'Mediterranean Apps',
+    'license': 'LGPL-3',
+    "support": "mediterranean.apps@gmail.com",
+    "category": "Access",
+    "images": ['images/clear_user_access_rights.jpg'],
+    'depends': ['base'],
+    "external_dependencies": {"python": [], "bin": []},
+    'data': [
+        'views.xml',
+    ],
+    "demo": [
+    ],
+    'installable': True,
+    'auto_install': False,
+}

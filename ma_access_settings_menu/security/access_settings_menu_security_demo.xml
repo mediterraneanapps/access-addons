@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- Grant access to Demo User to don't break CI of other modules -->
+    <record id="group_show_settings_menu" model="res.groups">
+        <field name="users" eval="[(4, ref('base.user_demo'))]"/>
+    </record>
+
+</odoo>
