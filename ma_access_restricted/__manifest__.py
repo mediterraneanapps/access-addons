@@ -5,7 +5,7 @@
     "category": "Access",
     "support": "mediterranean.apps@gmail.com",
     "license": "LGPL-3",
-    'price': 30.00,
+    'price': 10.00,
     'currency': 'EUR',
     'depends': ['ma_ir_rule_protected'],
     'data': [
