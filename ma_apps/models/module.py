@@ -16,7 +16,7 @@ class Module(models.Model):
         for r in self:
             r.is_super_app = r.name.startswith(prefix)
 
-    @api.multi
+     
     def button_uninstall(self):
         if self.is_super_app:
             # uninstall explicit dependencies

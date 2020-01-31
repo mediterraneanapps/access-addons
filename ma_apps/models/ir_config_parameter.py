@@ -17,7 +17,7 @@ class IrConfigParameter(models.Model):
             self._recompute_is_super_app()
         return res
 
-    @api.multi
+     
     def write(self, vals):
         res = super(IrConfigParameter, self).write(vals)
         if self.key == KEY:

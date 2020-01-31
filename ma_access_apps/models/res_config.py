@@ -50,7 +50,7 @@ class ResConfigSettings(models.TransientModel):
 
         return res
 
-    @api.multi
+     
     def execute(self):
         # base `exectute` doesn't know about new classification - it only has a list of modules to install now
         res = super(ResConfigSettings, self).execute()
